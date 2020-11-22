@@ -1,0 +1,17 @@
+.sity-header {
+  background-color: $bg-header;
+  padding: 20px 0 20px 0;
+}
+.header {
+  text-align: center;
+  &__title {
+    font-size: 36px;
+    color: $white;
+    font-weight: 600;
+  }
+  &__subtitle {
+    font-size: 18px;
+    color: $white;
+    padding: 10px 0 0 0;
+  }
+}
