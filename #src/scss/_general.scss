@@ -1,0 +1,33 @@
+.main-wrapper {
+  width: 100vw;
+}
+
+}
+
+// Typography
+
+.main-wrapper {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+}
+.section-title {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+  @include mobile-w {
+    font-size: 28px;
+    text-align: center;
+  }
+  @include mobile {
+    font-size: 25px;
+    text-align: center;
+    line-height: 40px;
+  }
+}
+
+// Buttons
+
+
+
