@@ -1,0 +1,42 @@
+.benefits {
+  padding-bottom: 50px;
+  &__description {
+    padding: 50px 0;
+    text-align: center;
+    font-weight: 700;
+    &__title {
+      font-size: 48px;
+      color: $text-red;
+    }
+    &__subtitle {
+      font-size: 28px;
+      color: $btn-borer-hover;
+    }
+  }
+  &__list {
+    display: flex;
+  }
+}
+.benefits-item {
+  width: 25%;
+  padding: 20px 10px;
+  text-align: center;
+  &__icon-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    &__img {
+      width: 100px;
+    }
+  }
+  &__title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    height: 40px;
+  }
+  &__text {
+    font-size: 18px;
+    font-weight: bold;
+  }
+}

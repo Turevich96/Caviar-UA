@@ -102,6 +102,10 @@ a {
   color: #ee1d24;
 }
 
+.text-white {
+  color: #ffff;
+}
+
 @-webkit-keyframes bounce {
   0% {
     -webkit-transform: rotate(0deg);
@@ -300,6 +304,224 @@ a {
 .home__description__btn:hover {
   background-color: #40d11e;
   border: 5px solid #c53609;
+  cursor: pointer;
+  -webkit-animation: bounce 1s;
+          animation: bounce 1s;
+}
+
+.benefits {
+  padding-bottom: 50px;
+}
+
+.benefits__description {
+  padding: 50px 0;
+  text-align: center;
+  font-weight: 700;
+}
+
+.benefits__description__title {
+  font-size: 48px;
+  color: #ee1d24;
+}
+
+.benefits__description__subtitle {
+  font-size: 28px;
+  color: #c53609;
+}
+
+.benefits__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.benefits-item {
+  width: 25%;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.benefits-item__icon-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+}
+
+.benefits-item__icon-box__img {
+  width: 100px;
+}
+
+.benefits-item__title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  height: 40px;
+}
+
+.benefits-item__text {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sity-caviar {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../../assets/img/bg-top.jpg);
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/img/bg-top.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/img/bg-top.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sity-caviar__title {
+  color: #f7944b;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 50px;
+}
+
+.sity-caviar__footer {
+  margin: 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+}
+
+.sity-caviar__footer__title {
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.sity-caviar__footer__subtitle {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.sity-caviar__footer__btn {
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  background-color: #f02b11;
+  border: solid #63eb7e 5px;
+  border-radius: 25px;
+  padding: 8px 24px;
+  margin-top: 20px;
+}
+
+.sity-caviar__footer__btn:hover {
+  background-color: #d9260e;
+  border-color: #28e34d;
+  color: white;
+  cursor: pointer;
+  -webkit-animation: bounce 1s;
+          animation: bounce 1s;
+}
+
+.caviar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.caviar__list {
+  background-color: #ffff;
+  width: 30%;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+}
+
+.caviar__list__title {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.caviar__list__text {
+  text-align: center;
+  font-size: 18px;
+  margin: 8px 0;
+  font-weight: 500;
+}
+
+.caviar__list__prise {
+  font-size: 24px;
+  text-align: center;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.caviar__list__image {
+  height: 300px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../../assets/img/ikra2.jpg);
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/img/ikra2.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/img/ikra2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.caviar__list__description__item {
+  font-weight: 500;
+}
+
+.caviar-btn {
+  color: #4ce028;
+  font-size: 20px;
+  font-weight: bold;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1)));
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+  border: 1px solid #4ce028;
+  padding: 12px 25px;
+}
+
+.caviar-btn:hover {
+  background-color: #0f6535;
+  border-color: #f7944b;
+  color: white;
   cursor: pointer;
   -webkit-animation: bounce 1s;
           animation: bounce 1s;
