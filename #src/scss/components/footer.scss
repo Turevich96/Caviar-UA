@@ -1,0 +1,100 @@
+.section-footer {
+  background-color: #f7944d;
+  height: 254px;
+  font-family: "Montserrat", sans-serif;
+}
+.footer {
+  height: 254px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(43, 50, 56);
+    border-radius: 10px;
+    width: 30%;
+    height: 200px;
+    padding: 10px 30px;
+    @include laptop {
+      width: 50%;
+    }
+    @include tablet {
+      width: 50%;
+    }
+    @include mobile-w {
+      width: 70%;
+    }
+    @include mobile {
+      display: none;
+      padding: 5px 10px;
+    }
+  }
+  &__contacts {
+    width: 70%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: white;
+    &__title {
+      width: 100%;
+      text-align: center;
+      font-size: 24px;
+      font-weight: 700;
+      @include mobile-w {
+        font-size: 18px;
+      }
+      @include mobile {
+        font-size: 18px;
+      }
+    }
+  }
+}
+.footer-tel {
+  height: 40px;
+  @include flex;
+  &__icon {
+    width: 30px;
+  }
+}
+.form {
+  &__title {
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    font-size: 20px;
+  }
+  &__input {
+    background: none;
+    height: 20px;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.685);
+    outline: none;
+    margin: 10px 0;
+  }
+  &__btn {
+    background-color: rgb(247, 148, 75);
+    border-radius: 25px;
+    width: 60%;
+    margin: auto;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+  }
+}
+.footer-item {
+  font-size: 18px;
+  font-weight: 400;
+  @include mobile-w {
+    font-size: 16px;
+    margin: 2px;
+  }
+  @include mobile {
+    font-size: 16px;
+    margin: 2px;
+  }
+}

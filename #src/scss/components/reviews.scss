@@ -1,0 +1,50 @@
+.slider {
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
+  @include mobile-w {
+    width: 110%;
+  }
+  @include mobile {
+    width: 110%;
+  }
+}
+.reviews {
+  @include mobile-w {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+  @include mobile {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+}
+.prev {
+  position: absolute;
+  top: 40%;
+  left: -66px;
+  @include mobile-w {
+    display: none;
+  }
+  @include mobile {
+    display: none;
+  }
+}
+.next,
+.slick-arrow {
+  position: absolute;
+  top: 40%;
+  right: -66px;
+  @include mobile-w {
+    display: none;
+  }
+  @include mobile {
+    display: none;
+  }
+}
+.next:hover,
+.prev:hover {
+  cursor: pointer;
+}

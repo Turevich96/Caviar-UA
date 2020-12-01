@@ -15,12 +15,36 @@
   }
   &__list {
     display: flex;
+    @include laptop {
+      flex-wrap: wrap;
+    }
+    @include tablet {
+      flex-wrap: wrap;
+    }
+    @include mobile-w {
+      flex-wrap: wrap;
+    }
+    @include mobile {
+      flex-wrap: wrap;
+    }
   }
 }
 .benefits-item {
   width: 25%;
   padding: 20px 10px;
   text-align: center;
+  @include laptop {
+    width: 50%;
+  }
+  @include tablet {
+    width: 50%;
+  }
+  @include mobile-w {
+    width: 50%;
+  }
+  @include mobile {
+    width: 50%;
+  }
   &__icon-box {
     display: flex;
     justify-content: center;
@@ -34,9 +58,15 @@
     font-weight: bold;
     margin-bottom: 30px;
     height: 40px;
+    @include mobile {
+      font-size: 14px;
+    }
   }
   &__text {
     font-size: 18px;
     font-weight: bold;
+    @include mobile {
+      font-size: 15px;
+    }
   }
 }

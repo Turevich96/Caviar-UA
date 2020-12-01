@@ -15,6 +15,12 @@
     font-size: 30px;
     font-weight: 700;
     padding-bottom: 50px;
+    @include mobile-w {
+      font-size: 23px;
+    }
+    @include mobile {
+      font-size: 23px;
+    }
   }
   &__footer {
     margin: 40px 0;
@@ -28,6 +34,12 @@
     &__subtitle {
       font-size: 30px;
       font-weight: 500;
+      @include mobile-w {
+        font-size: 22px;
+      }
+      @include mobile {
+        font-size: 18px;
+      }
     }
     &__btn {
       font-size: 35px;
@@ -51,12 +63,32 @@
 .caviar {
   display: flex;
   justify-content: space-between;
+  @include mobile-w {
+    flex-direction: column;
+  }
+  @include mobile {
+    flex-direction: column;
+  }
   &__list {
     background-color: $white;
     width: 30%;
     border-radius: 5px;
     box-sizing: border-box;
     padding: 10px;
+    @include laptop {
+      width: 32%;
+    }
+    @include tablet {
+      width: 32%;
+    }
+    @include mobile-w {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    @include mobile {
+      width: 100%;
+      margin-bottom: 20px;
+    }
     &__title {
       font-size: 28px;
       font-weight: 700;
