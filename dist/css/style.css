@@ -752,6 +752,74 @@ a {
   font-weight: 400;
 }
 
+.modal-dialog {
+  background-color: #fff;
+  border: 1px solid #999;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  margin: 0;
+  position: fixed;
+  /* 2 */
+  top: 50%;
+  /* 3 */
+  left: calc(50% - 200px);
+  -webkit-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  /* 4 */
+  display: none;
+}
+
+.submit-btn {
+  background-color: #f7944b;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-style: solid;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-color: #f56f0e;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  color: white;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.modal-header {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.textable {
+  padding-left: 20px;
+  margin: 6px 0;
+}
+
+.close {
+  border: none;
+  color: #999;
+  font-size: 24px;
+  background: none;
+  position: absolute;
+  right: 10px;
+}
+
+.block {
+  display: block;
+}
+
 @media (max-width: 575px) {
   .container {
     width: 90%;
